@@ -2998,7 +2998,7 @@
             xmlHttp.send(null);
             return xmlHttp.responseText;
         }
-        let data = httpGet('http://tool.onskycloud.com/corona')
+        let data = httpGet('https://tool.onskycloud.com/corona')
         let corona = JSON.parse(data)
         document.getElementsByClassName("vietnam")[0].innerHTML=corona.vietnam;
         document.getElementsByClassName("world")[0].textContent=corona.world;
