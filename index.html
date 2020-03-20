@@ -2996,12 +2996,26 @@
             var xmlHttp = new XMLHttpRequest();
             xmlHttp.open("GET", theUrl, false); // false for synchronous request
             xmlHttp.send(null);
+            xmlHttp.onload = function() {
+            if (xmlHttp.status != 200) { // analyze HTTP status of the response
+                console.log(`Error ${xmlHttp.status}: ${xmlHttp.statusText}`); // e.g. 404: Not Found
+            } else { // show the result
+                console.log(`Done, got ${xmlHttp.response.length} bytes`); // responseText is the server
+            }
+            };
             return xmlHttp.responseText;
         }
         let world = {"latest":{"confirmed":242708,"deaths":9867,"recovered":84854}}
-        world = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/latest')
         let vietnam = {"locations":[{"coordinates":{"latitude":"16","longitude":"108"},"country":"Vietnam","country_code":"VN","id":191,"latest":{"confirmed":85,"deaths":0,"recovered":16},"province":""}]}
-        vietnam = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/locations?country_code=vn')
+        
+        let worldData = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/latest')
+        vietnamData = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/locations?country_code=vn')
+
+        world = JSON.parse(worldData)
+        vietnam = JSON.parse(vietnamData)
+        
+        console.log('world',world.latest)
+        console.log('vietnam',vietnam.locations)
         
         document.getElementsByClassName("vietnam")[0].innerHTML=((vietnam.locations||[{}])[0].latest||{}).confirmed;
         document.getElementsByClassName("world")[0].textContent=(world.latest||{}).confirmed;
