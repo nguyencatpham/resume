@@ -3003,7 +3003,7 @@
         let vietnam = {"locations":[{"coordinates":{"latitude":"16","longitude":"108"},"country":"Vietnam","country_code":"VN","id":191,"latest":{"confirmed":85,"deaths":0,"recovered":16},"province":""}]}
         vietnam = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/locations?country_code=vn')
         
-        document.getElementsByClassName("vietnam")[0].innerHTML=vietnam.locations[0].latest.confirmed;
+        document.getElementsByClassName("vietnam")[0].innerHTML=((vietnam.locations||[{}])[0].latest||{}).confirmed;
         document.getElementsByClassName("world")[0].textContent=(world.latest||{}).confirmed;
 
     </script>
