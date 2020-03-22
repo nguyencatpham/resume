@@ -3006,10 +3006,10 @@
             return xmlHttp.responseText;
         }
         let world = {"latest":{"confirmed":242708,"deaths":9867,"recovered":84854}}
-        let vietnam = {"locations":[{"coordinates":{"latitude":"16","longitude":"108"},"country":"Vietnam","country_code":"VN","id":191,"latest":{"confirmed":85,"deaths":0,"recovered":16},"province":""}]}
+        let vietnam = {"vietnam":"94","world":"307652"}
         
         let worldData = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/latest')
-        vietnamData = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/locations?country_code=vn')
+        let vietnamData = httpGet('https://tool.onskycloud.com/corona') //{"vietnam":"94","world":"307652"}
 
         world = JSON.parse(worldData)
         vietnam = JSON.parse(vietnamData)
@@ -3017,7 +3017,7 @@
         console.log('world',world.latest)
         console.log('vietnam',vietnam.locations)
         
-        document.getElementsByClassName("vietnam")[0].innerHTML=((vietnam.locations||[{}])[0].latest||{}).confirmed;
+        document.getElementsByClassName("vietnam")[0].innerHTML= (vietnam || {}).vietnam
         document.getElementsByClassName("world")[0].textContent=(world.latest||{}).confirmed;
 
     </script>
