@@ -5577,17 +5577,25 @@
         }
         let world = {"latest":{"confirmed":242708,"deaths":9867,"recovered":84854}}
         let vietnam = {"vietnam":"0","world":"0"}
-        
+        let vietnamWorld = { "latest": {
+                          "confirmed": 288,
+                          "deaths": 0,
+                          "recovered": 0
+                        }}
+
         let worldData = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/latest')
         let vietnamData = httpGet('https://tool.onskycloud.com/corona') //{"vietnam":"94","world":"307652"}
+        let vietnamWorldData = httpGet('https://coronavirus-tracker-api.herokuapp.com/v2/locations/228?source=jhu&timelines=true');
+        
 
         world = JSON.parse(worldData)
         vietnam = JSON.parse(vietnamData)
+        vietnamWorld = JSON.parse(vietnamWorldData)
         
         console.log('world',world.latest)
-        console.log('vietnam',vietnam.locations)
+        console.log('vietnam',vietnamWorld)
         
-        document.getElementsByClassName("vietnam")[0].innerHTML= ((vietnam || {}).vietnam||"0").replace(/(.)(?=(\d{3})+$)/g,'$1,') + " cases"
+        document.getElementsByClassName("vietnam")[0].innerHTML= (((vietnamWorld || {}).latest||{}).confirmed||"0").replace(/(.)(?=(\d{3})+$)/g,'$1,') + " cases"
         document.getElementsByClassName("world")[0].textContent=((world.latest||{}).confirmed||"0").toString().replace(/(.)(?=(\d{3})+$)/g,'$1,') + " cases"
 
     </script>
