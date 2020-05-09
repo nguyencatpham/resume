@@ -5595,7 +5595,7 @@
         console.log('world',world.latest)
         console.log('vietnam',vietnamWorld)
         
-        document.getElementsByClassName("vietnam")[0].innerHTML= ((((vietnamWorld || {}).location||{}).latest||{}).confirmed||"0").replace(/(.)(?=(\d{3})+$)/g,'$1,') + " cases"
+        document.getElementsByClassName("vietnam")[0].innerHTML= ((((vietnamWorld || {}).location||{}).latest||{}).confirmed||"0") + " cases"
         document.getElementsByClassName("world")[0].textContent=((world.latest||{}).confirmed||"0").toString().replace(/(.)(?=(\d{3})+$)/g,'$1,') + " cases"
 
     </script>
