@@ -20,10 +20,14 @@ Experience
 - Team size: 5 (leader)
 - The Network Engine take responsibility to handle all communication processes among devices, networks, BSS, OSS server and app via MQTT protocol and restful APIs.
 - Technical: AWS services, NodeJS, Kubernetes, Kafka.
-- Responsibility for build the project with NodeJS 
+- Responsibility for build the project with NodeJS, deploy on Kubernetes with AWS EKS. 
 
-**Benchmark** (12/2020 - 09/2021)
-
+**GoBench** (07/2020 - 10/2020)
+- Team size: 2 (member)
+- The benchmark project build on top of Go, ReactJS.
+- Technical: Go, ReactJS.
+- Responsibility for build the REST Api and UI.
+- Reference Link: https://github.com/gobench-io/gobench
 
 **[*OnSky - Software Engineer](http://onskyinc.com/)** (06/2018-07/2020)
 **OnSky Smart home** (06/2018 - 07/2020)
