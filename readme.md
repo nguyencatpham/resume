@@ -8,9 +8,9 @@ Thọ Phạm
 
 Skills
 ------
-**Technical:** Go, NodeJS, AWS, Kubernetes
+**Technical:** `Go`, `NodeJS`, `AWS`, `Kubernetes`
 
-**Other skills:** .NET, Javascript/ReactJS, Micro-service, CI/CD, Docker, MySQL, Linux, REST, Agile/Scrum, GIT.
+**Other skills:** `.NET`, `Javascript/ReactJS`, `Micro-service`, `CI/CD`, `Docker`, `MySQL`, `Linux`, `REST`, `Agile/Scrum`, `GIT`.
 
 Experience
 ---------
@@ -63,4 +63,8 @@ Education & Certificate
 - Microsoft certificate for App builder.  
   
 
+Language
+---------
 
+- English
+- Vietnamese (native)
