@@ -2,9 +2,9 @@ Thọ Phạm
 ======
 #### [Senior Software Developer]
 
- With more than 6 years of experience in Golang, NodeJS and .NET Developer work as a software engineer in IoT distributed system, and as a software architect in web development. Design Microservices and end to end solutions with fault tolerance and high availability features with databases such as POSTGRES, MySQL, REDIS, INFLUX, and language acknowledge such as Go, .NET and Javascript(NodeJS, ReactJS). Strong cloud engineering focused on Go Developer.
+ With more than 7 years of experience in Golang, NodeJS and .NET Developer work as a software engineer in IoT distributed system, and as a software architect in web development. Design Microservices and end to end solutions with fault tolerance and high availability features with databases such as POSTGRES, MySQL, REDIS, INFLUX, and language acknowledge such as Go, .NET and Javascript(NodeJS, ReactJS). Strong cloud engineering focused on Go Developer.
  
-###### [ tho.pham@veriksystems.com ] . [ 098 412 1398 ]
+###### [ dtpham258@gmail.com ] . [ 098 412 1398 ]
 
 Skills
 ------
@@ -14,7 +14,21 @@ Skills
 
 Experience
 ---------
-**[*VEriK Systems - Seinor Software Engineer](http://veriksystems.com/)** (07/2020-present)
+**[*VEriK Systems - Seinor Software Engineer](http://veriksystems.com/)** (07/2020-present) 
+
+Product: Home-Awareness (Wi-Fi Motion Sensing, Fall, Sleep Detection)
+
+Role: Architect, Developer, and Develop Cloud (IaC) for deployment & Container Development.
+
+AWS Cloud Architect: ECS-Fargate, EKS, RDS, SQS, IoT & Kubernetes using CloudFormation. 
+
+Cloud Scalability & Availability: Using Kubernetes Vertical/Horizontal Auto Scaling Policy to meet increasing real-time traffic demand.
+
+Performance Optimization: Gobench (https://github.com/gobench-io/gobench) - A benchmark framework with Golang. Optimizing the performance of cloud container applications to serve increasing traffic.
+
+DevOps: Jenkins, GitHub, GitLab CI/CD, Pulumi, Helm.
+
+Application Performance Monitoring (APM) ~ CloudWatch, Prometheus hierarchical federation & Grafana.
 
 **Sunflower, Linksys** (12/2020 - 09/2021)
 - Team size: 5 (leader)
@@ -22,7 +36,7 @@ Experience
 - Technical: AWS services, NodeJS, Kubernetes, Kafka.
 - Responsibility for build the project with NodeJS, deploy on Kubernetes with AWS EKS. 
 
-**GoBench** (07/2020 - 10/2020)
+**Gobench** (07/2020 - 10/2020)
 - Team size: 2 (member)
 - The benchmark project build on top of Go, ReactJS.
 - Technical: Go, ReactJS.
