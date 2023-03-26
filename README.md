@@ -4,7 +4,7 @@ Thọ Phạm
 
 I'm passionate, hard-working, and pretty equable with more than 8 years of experience in Golang, NodeJS, and .NET Developer working as a software engineer in the IoT industry to provide end-to-end solutions and build high availability services based on AWS & Kubernetes. I have many years of experience working directly with big clients to provide high-quality products that have millions of users.
  
-###### [ dtpham258@gmail.com ] . [ 098 412 1398 ]
+###### [ dtpham258@gmail.com ] . [ 098 412 1398 ] . [Ho Chi Minh city]
 
 Skills
 ------
