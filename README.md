@@ -16,7 +16,7 @@ Experience
 ---------
 ### Senior Software Engineer 
 *[VEriK Systems] Jul 2020 - Dec 2022 (2 years 6 months)*
-https://veriksystems.com/wp-content/uploads/2014/06/verik-systems-company.png
+
 **Home-Awareness (Wi-Fi Motion Sensing, Fall, Sleep Detection)**
 - Lead a team of 5 to build Home-Awareness sensing servers for millions of users.
 
