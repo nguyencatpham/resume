@@ -17,7 +17,7 @@ Experience
 ### VEriK Systems - Senior Software Engineer (07/2020-12/2022) 
 
 **Home-Awareness (Wi-Fi Motion Sensing, Fall, Sleep Detection)** (10/2021 - 12/2022)
-- Lead a group of 5 to build a device server for Home-Awareness for millions of users.
+- Lead a team of 5 to build Home-Awareness sensing servers for millions of users.
 
 *Role*: Architect, Developer, and Develop Cloud (IaC) for deployment. Work directly with clients to gather requirements, propose solutions, and report.
 
