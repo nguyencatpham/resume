@@ -32,13 +32,11 @@ Experience
 
 **Network Engine** (12/2020 - 09/2021)
 - Team size: 5 (leader)
-- The Network Engine takes responsibility to handle all communication processes among devices, networks, BSS, OSS servers, and mobile applications via MQTT protocol and restful APIs.
+- A lead a group of 5 to provide solution and build a network engine takes responsibility to handle all communication processes among devices, networks, mobile applications, and other services via MQTT protocol and RESTFUL APIs.
 - Technical: AWS services, NodeJS, Kubernetes, Kafka.
 
 [**Gobench**](https://github.com/gobench-io/gobench) (07/2020 - 10/2020)
-- Team size: 2 (member)
 - An open source for benchmarking is built on top of Go, and ReactJS. Used by Origin Wireless.
-- Technical: Go, ReactJS.
 
 ### OnSky - Software Engineer (06/2018-07/2020)
 
