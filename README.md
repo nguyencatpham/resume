@@ -17,8 +17,9 @@ Experience
 ### VEriK Systems - Senior Software Engineer (07/2020-12/2022) 
 
 **Home-Awareness (Wi-Fi Motion Sensing, Fall, Sleep Detection)** (10/2021 - 12/2022)
+- A lead of 5 to build a device server for Home-Awareness for millions of users.
 
-*Role*: Architect, Developer, and Develop Cloud (IaC) for deployment.
+*Role*: Architect, Developer, and Develop Cloud (IaC) for deployment. Work directly with clients to gather requirements, propose solutions, and report.
 
 *AWS Cloud Architect*: ECS, EKS, RDS, SQS, IoT, and CloudFormation. 
 
@@ -31,12 +32,11 @@ Experience
 *Application Performance Monitoring (APM)*: CloudWatch, Prometheus hierarchical federation, and Grafana.
 
 **Network Engine** (12/2020 - 09/2021)
-- Team size: 5 (leader)
 - A lead a group of 5 to provide solution and build a network engine takes responsibility to handle all communication processes among devices, networks, mobile applications, and other services via MQTT protocol and RESTFUL APIs.
 - Technical: AWS services, NodeJS, Kubernetes, Kafka.
 
 [**Gobench**](https://github.com/gobench-io/gobench) (07/2020 - 10/2020)
-- An open source for benchmarking is built on top of Go, and ReactJS. Used by Origin Wireless.
+- Contributor to a benchmarking open-source built on top of Go and ReactJS. Used by Origin Wireless.
 
 ### OnSky - Software Engineer (06/2018-07/2020)
 
