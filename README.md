@@ -14,9 +14,10 @@ Skills
 
 Experience
 ---------
-### VEriK Systems - Senior Software Engineer (07/2020-12/2022) 
+### Senior Software Engineer 
+ *[VEriK Systems] Jul 2020 - Dec 2022 (2 years 6 months)*
 
-**Home-Awareness (Wi-Fi Motion Sensing, Fall, Sleep Detection)** (10/2021 - 12/2022)
+**Home-Awareness (Wi-Fi Motion Sensing, Fall, Sleep Detection)**
 - Lead a team of 5 to build Home-Awareness sensing servers for millions of users.
 
 *Role*: Architect, Developer, and Develop Cloud (IaC) for deployment. Work directly with clients to gather requirements, propose solutions, and report.
@@ -31,34 +32,36 @@ Experience
 
 *Application Performance Monitoring (APM)*: CloudWatch, Prometheus hierarchical federation, and Grafana.
 
-**Network Engine** (12/2020 - 09/2021)
+**Network Engine**
 - Lead a group of 5 to provide solution and build a network engine takes responsibility to handle all communication processes among devices, networks, mobile applications, and other services via MQTT protocol and RESTFUL APIs.
 - Technical: AWS services, NodeJS, Kubernetes, Kafka.
 
-[**Gobench**](https://github.com/gobench-io/gobench) (07/2020 - 10/2020)
+[**Gobench**](https://github.com/gobench-io/gobench)
 - Contributor to a benchmarking open-source built on top of Go and ReactJS. Used by Origin Wireless.
 
-### OnSky - Software Engineer (06/2018-07/2020)
+### Software Engineer
+*[OnSky] Jun 2018 - Jul 2020 (2 years)
 
-**OnSky Smart home** (06/2018 - 07/2020)
+**OnSky smart home**
 - Lead a group of 5 to architect, develop, and develop cloud (IaC) for a smart home product on AWS and Kubernetes.
 - Technical: Micro-service, MQTT, AWS, Go, NodeJS, Kubernetes.
 
-**Integrated Google home to OnSky Smarthome** (06/2019 – 10/2019)
+**Integrated Google home to OnSky smart home**
 - A project built on NodeJS and google cloud platform ( actions and firebase) to control all OnSky devices with Vietnamese voice via Smart Speaker Google Home / Mini / Hub for smart home systems, and smart offices.
 - Technical: GCP services, NodeJS, Kubernetes.
 - Responsibility for building a fulfillment service for handling control devices with voice.
 
 Other Experience
 ---------
-### NOIS - Software Engineer (01/2016-06/2018)
+### Software Engineer
+*[NOIS] Jan 2016 - Dec 2017 (2 years)*
 
-**Nopcomerce project** (06/2017 – 12/2017)
-- Team size: 3 (members)
-- An eCommerce website to trade services of telecommunication by Bridge Alliance. The project uses Nopcommerce open-source build on ASP.NET and Jquery. Tools used to are VPN, Git, and Team foundation server.
+**Nopcomerce project** 
+- A member of 3 to build an eCommerce website to trade services of telecommunication by Bridge Alliance. The project uses Nopcommerce open-source build on ASP.NET and Jquery. Tools used to are VPN, Git, and Team foundation server.
 - Responsibility for maintaining and upgrading the Nopcommerce to v3.9.0
 
-### Ruby - Web Developer (01/2015-12/2015)
+### Web Developer
+*[RubyVN] Jan 2015 - Dec 2015 (1 year)
 
 **E-commerce project** 
 - Team size: 2 (member)
