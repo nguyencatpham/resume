@@ -12,6 +12,10 @@ Skills
 
 **Other skills:** `.NET`, `Javascript/ReactJS`, `Micro-service`, `CI/CD`, `Docker`, `MySQL`, `Linux`, `REST`, `Agile/Scrum`, `GIT`.
 
+Achievement
+---------
+- TBD
+
 Experience
 ---------
 ### Senior Software Engineer 
