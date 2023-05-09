@@ -3,7 +3,7 @@ Thọ Phạm
 
 
 
-#### [Senior Software Developer] ![](https://komarev.com/ghpvc/?username=nguyencatpham&style=for-the-badge&color=fa8c16)
+#### [Senior Software Development Engineer] ![](https://komarev.com/ghpvc/?username=nguyencatpham&style=for-the-badge&color=fa8c16)
 
 
 
